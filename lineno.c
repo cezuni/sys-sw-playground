@@ -4,6 +4,7 @@ static void
 print_line_number(const char *input_path)
 {
 	/* TODO */
+	FILE *fp; 
 }
 
 int
