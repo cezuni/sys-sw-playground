@@ -1,4 +1,4 @@
-#include <stdio.h>  
+#include <stdio.h>
 
 static void  
 print_line_number(const char *input_path)  
