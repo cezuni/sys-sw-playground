@@ -7,10 +7,14 @@ print_line_number(const char *input_path)
 	
 	fp = fopen(input_path, "r");
 	if (fp != NULL){
-		int lineno = 1;
-		pritnf("%u" , lineno);
+		char	buf[1024];
+		int	lineno = 1;
+		while(fgets(buf, 1024, fp)) {
+			pritnf("%u: %s", lineno, buf);
+			lineno++;
+		}
+		fclose(fp);
 	}
-	fclose(fp);
 }
 
 int
