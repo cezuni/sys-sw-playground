@@ -3,8 +3,9 @@
 static void
 print_line_number(const char *input_path)
 {
-	/* TODO */
+#if 0
 	FILE *fp; 
+#endif
 }
 
 int
