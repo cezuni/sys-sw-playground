@@ -3,9 +3,14 @@
 static void
 print_line_number(const char *input_path)
 {
-#if 0
 	FILE *fp; 
-#endif
+	
+	fp = fopen(input_path, "r");
+	if (fp != NULL){
+		int lineno = 1;
+		pritnf("%u" , lineno);
+	}
+	fclose(fp);
 }
 
 int
