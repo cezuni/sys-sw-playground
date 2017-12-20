@@ -8,7 +8,8 @@ print_line_number(const char *input_path)
 	printf("Hello Systemsoftware");
 	printf("Plsease~");
 	printf("=========\nHello World! I'm DongHee\n==========");
-    }
+	printf("Nice to meet you, I'm Hyemin");    
+}
 }  
   
 int  
