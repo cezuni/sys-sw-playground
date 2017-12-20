@@ -12,6 +12,7 @@ print_line_number(const char *input_path)
 		int	lineno = 1;
 		while(fgets(buf, 1024, fp)) {
 			printf("%u: %s", lineno, buf);
+			printf("GoGo");
 			lineno++;
 		}
 		fclose(fp);
