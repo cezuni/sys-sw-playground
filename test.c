@@ -7,6 +7,7 @@ print_line_number(const char *input_path)
         printf("%3d --> \033[%dm%s\033[0m\n", i, i, "Text");
 	printf("Hello Systemsoftware");
 	printf("Plsease~");
+	printf("=========\nHello World! I'm DongHee\n==========");
     }
 }  
   
