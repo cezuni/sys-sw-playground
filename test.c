@@ -5,6 +5,7 @@ print_line_number(const char *input_path)
 {  
 	for (int i = 0; i < 110; ++i) {
         printf("%3d --> \033[%dm%s\033[0m\n", i, i, "Text");
+	printf("Hungry~");
     }
 }  
   
