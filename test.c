@@ -16,7 +16,8 @@ main(int argc, char *argv[])
 		printf("Usage: lineno <input file>\n");  
 		return 1;  
 	}  
-	print_line_number(argv[1]);  
+	print_line_number(argv[1]);
+	printf("Hello ");  
 	return 0;  
 }  
 
