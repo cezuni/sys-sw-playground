@@ -26,6 +26,7 @@ print_line_number(const char *input_path)
 int
 main(int argc, char *argv[])
 {
+	printf("Let's get it started~");
 	if (argc < 1) {
 		printf("Usage: lineno <input file>\n");
 		return 1;
