@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 static void
 print_line_number(const char *input_path)
@@ -10,11 +11,15 @@ print_line_number(const char *input_path)
 		char	buf[1024];
 		int	lineno = 1;
 		while(fgets(buf, 1024, fp)) {
-			pritnf("%u: %s", lineno, buf);
+			printf("%u: %s", lineno, buf);
 			lineno++;
 		}
 		fclose(fp);
 	}
+       else{
+                printf("cannot open file!");
+                exit(1);
+       }
 }
 
 int
