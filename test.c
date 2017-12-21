@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* kim dan */
 
 int  
 main(int argc, char *argv[])  
