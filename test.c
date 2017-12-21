@@ -1,4 +1,4 @@
-#include <stdio.h>
+#Include <stdio.h>
 
 
 int  
@@ -8,7 +8,7 @@ main(int argc, char *argv[])
 		printf("Usage: lineno <input file>\n");  
 		return 1;  
 	}  
-	printf(" I am yeon jung!");
+	printf(" I am who I am!");
 	printf("Hello ");  
 	return 0;  
 }  
