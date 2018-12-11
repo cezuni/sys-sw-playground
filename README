@@ -6,7 +6,5 @@ just type "make"
 
 # make
 
-make가 설치안되어 있으므로 아래와 같이
-# sudo apt install make
-
-하여 make를 먼저 설치해야 하네요
+새로운 파일을 만드셔도 상관없지만,
+반드시 lineno.c는 수정하셔야 합니다.
