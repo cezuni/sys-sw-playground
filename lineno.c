@@ -18,7 +18,7 @@ print_line_number(const char *input_path)
 		fclose(fp);
 	}
        else{
-                printf("Cannot Open File!");
+                printf("Cannot open file!");
                 exit(1);
        }
 }
