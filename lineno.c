@@ -34,6 +34,5 @@ main(int argc, char *argv[])
 	}
 	print_line_number(argv[1]);
 	printf("DONE!");
-	printf("DONE!");
 	return 0;
 }
