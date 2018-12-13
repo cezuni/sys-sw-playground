@@ -1,10 +1,14 @@
-System SW Part3 Class Playground
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+System S/W Class Playground
+-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 Build Instruction:
 just type "make"
 
 # make
 
-새로운 파일을 만드셔도 상관없지만,
-반드시 lineno.c는 수정하셔야 합니다.
+아래 사항을 준수해 주세요.
+- 새로운 파일을 만드셔도 상관없지만, 반드시 lineno.c는 수정하셔야 합니다.
+- build 오류가 나면 안됩니다.
+- merge 형태로 commit 하면 안됩니다. git lgb로 봤을 때 한 줄로 되어야 합니다.
+- commit log도 나름 어떤한 작업을 했는지 내용을 적당히 넣어 주세요.
+  보통 첫행에는 요약을 작성하고, 이후 상세 내용을 적습니다.
