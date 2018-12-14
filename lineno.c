@@ -34,5 +34,9 @@ main(int argc, char *argv[])
 	}
 	print_line_number(argv[1]);
 	printf("DONE!!!");
+	printf("종강까지 앞으로 일주일도 안남았다!!!");
+	printf("전기장판 켜고 귤까먹으면서 핸드폰하기..");
+	printf("매일매일 졸려..");
+
 	return 0;
 }
