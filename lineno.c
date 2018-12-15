@@ -18,6 +18,7 @@ print_line_number(const char *input_path)
 	}
        else{
                 printf("Cannt open file!\n");
+		
                 exit(1);
        }
 }
@@ -29,6 +30,7 @@ main(int argc, char *argv[])
 		printf("Usag: lineno <input file>\n");
 		return 1;
 	}
+	printf("hongsumin\n");
 	print_line_number(argv[1]);
 	return 0;
 }
