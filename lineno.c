@@ -29,6 +29,8 @@ main(int argc, char *argv[])
 		printf("Usag: lineno <input file>\n");
 		return 1;
 	}
+        printf("This is a program printing line of the read file\n");
 	print_line_number(argv[1]);
+        
 	return 0;
 }
