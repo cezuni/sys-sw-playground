@@ -29,7 +29,7 @@ main(int argc, char *argv[])
 		printf("Usag: lineno <input file>\n");
 		return 1;
 	}
-	printf("dajeong kim");
+	printf("dajeong kim\n");
 	print_line_number(argv[1]);
 	return 0;
 
