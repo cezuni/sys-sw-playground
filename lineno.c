@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-static void
-print_line_number(const char *input_path)
+static void print_line_number(const char *input_path)
 {
 	FILE *fp; 
 	
@@ -30,11 +29,8 @@ main(int argc, char *argv[])
 		printf("Usag: lineno <input file>\n");
 		return 1;
 	}
-	printf("hongsumin\n");
+	printf("dajeong kim");
 	print_line_number(argv[1]);
-	printf("kang suzie\n");
-	printf("kim bokyung\n");
-	printf("jogi\n");
 	return 0;
 
 }
