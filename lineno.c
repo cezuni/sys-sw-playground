@@ -33,5 +33,6 @@ main(int argc, char *argv[])
 	printf("hongsumin\n");
 	print_line_number(argv[1]);
 	printf("kang suzie\n");
+	printf("kim bokyung\n");
 	return 0;
 }
