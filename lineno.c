@@ -32,6 +32,10 @@ main(int argc, char *argv[])
 		printf("Usag : lineno 입력파일");
                 return 1;
 	}
+<<<<<<< 469d509889d9940faf37ecfcf0a58bece2916ee1
+=======
+	printf("Jooyoung Cha\n");
+>>>>>>> lineno.c is modified
 	print_line_number(argv[1]);
 	return 0;
 
