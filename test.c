@@ -1,7 +1,7 @@
 int main()
 {
     printf(" hyelee syssw");
+    printf("hello~~ hi~~~~");
 
-return 0;
 }
 
