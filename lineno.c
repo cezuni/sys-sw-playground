@@ -4,6 +4,7 @@
 static void
 print_line_number(const char *input_path)
 {
+	printf("this is lineno.c\n");
 	FILE *fp; 
 
 	fp = fopen(input_path, "r");
