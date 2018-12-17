@@ -11,7 +11,8 @@ print_line_number(const char *input_path)
 		char	buf[1024];
 		int	lineno = 1;
 		while(fgets(buf, 1024, fp)) {
-			printf("%u: %s", lineno, buf);
+printf("lineno와 buf");			
+printf("%u: %s", lineno, buf);
 			lineno++;
 		}
 		fclose(fp);
@@ -27,7 +28,8 @@ main(int argc, char *argv[])
 {
 	if (argc < 1) {
 		printf("Usag: lineno <input file>\n");
-		return 1;
+		printf("Usag : lineno 입력파일");
+                return 1;
 	}
 	print_line_number(argv[1]);
 	return 0;
