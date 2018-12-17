@@ -4,6 +4,6 @@ void main()
 {
 
 printf("hello~~");
-printf("1771012");
+printf("nice to meet you!");
 
 }
