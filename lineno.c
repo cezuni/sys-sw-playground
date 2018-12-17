@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-static void print_line_number(const char *input_path)
+static void
+print_line_number(const char *input_path)
 {
 	FILE *fp; 
-        printf("hello! lineno.c");	
+
 	fp = fopen(input_path, "r");
-	if (fp != NULL){
+	if (fp != NULL) {
 		char	buf[1024];
 		int	lineno = 1;
 		while(fgets(buf, 1024, fp)) {
@@ -15,11 +16,10 @@ static void print_line_number(const char *input_path)
 		}
 		fclose(fp);
 	}
-       else{
-                printf("Cannt open file!\n");
-		
-                exit(1);
-       }
+	else{
+		printf("Cannt open file!\n");
+		exit(1);
+	}
 }
 
 int
@@ -29,7 +29,6 @@ main(int argc, char *argv[])
 		printf("Usag: lineno <input file>\n");
 		return 1;
 	}
-	printf("dajeong kim\n");
 	print_line_number(argv[1]);
 	return 0;
 
