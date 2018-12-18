@@ -32,6 +32,7 @@ main(int argc, char *argv[])
 	}
 	printf("I am Jeihee Cho!\n");
 	printf("HyeWon Sung\n");
+	printf("Eunjung Lim\n");
 	print_line_number(argv[1]);
 	return 0;
 }
