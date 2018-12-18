@@ -6,6 +6,11 @@ print_line_number(const char *input_path)
 {
 	FILE *fp; 
 
+
+
+	printf("Hi\n");
+	printf("There\n");
+
 	fp = fopen(input_path, "r");
 	if (fp != NULL) {
 		char	buf[1024];
@@ -29,6 +34,10 @@ main(int argc, char *argv[])
 		printf("Usage: lineno <input file>\n");
                 return 1;
 	}
+
+
+	printf("Eunbyeol Kim\n");
+
 	print_line_number(argv[1]);
 	return 0;
 }
