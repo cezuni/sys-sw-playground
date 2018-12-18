@@ -30,6 +30,7 @@ main(int argc, char *argv[])
 		printf("Usage: lineno <input file>\n");
                 return 1;
 	}
+	printf("I am Jeihee Cho!\n");
 	printf("HyeWon Sung\n");
 	print_line_number(argv[1]);
 	return 0;
